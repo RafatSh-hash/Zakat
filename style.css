@@ -5,27 +5,34 @@ body {
     height: 600px;
     background-size: cover;
     position: relative;
-    background-color: rgb(226, 247, 184);
+    background-color: #e2f7b8;
 
+}
+
+main {
+    /* background-color: rgba(147, 253, 239, 0.521); */
 }
 
 .bold-header-text {
     font-size: 60px;
+    text-shadow: 2px 2px 2px #999999;
 }
 
 span {
-    color: red;
+    color: #ff0000;
 }
 
 .header-text {
     font-size: 22px;
+    text-shadow: 2px 2px #999999;
+
 }
 
 .btn1 {
     height: 50px;
     width: 200px;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 15px;
     font-size: 22px;
     font-weight: 700;
@@ -59,18 +66,19 @@ span {
     margin-right: 50px;
     margin-left: 50px;
     background-color: white;
-    box-shadow: 15px 15px 10px gray;
+    box-shadow: 15px 15px 10px #999999;
     border-radius: 20px;
     height: 250px;
 }
 
 .card:hover {
-    box-shadow: -15px -15px 20px gray;
+    box-shadow: -15px -15px 20px #999999;
 }
 
 .card-text {
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
 .card-header {
@@ -80,7 +88,7 @@ span {
 .purpose-head {
     height: 400px;
     width: 400px;
-    box-shadow: 15px 15px 10px gray;
+    box-shadow: 15px 15px 10px #999999;
     margin-left: 50px;
     padding: 20px;
     border-radius: 15px;
@@ -95,7 +103,7 @@ span {
     border: 2px solid black;
     border-radius: 15px;
     background-color: transparent;
-    background-image: linear-gradient(white, gray);
+    background-image: linear-gradient(white, #999999);
 }
 
 .purpose-text {
@@ -104,13 +112,13 @@ span {
 
 .btn2:hover {
 
-    background-image: linear-gradient(gray, white);
+    background-image: linear-gradient(#999999, white);
 
 }
 
 .video1 {
     border-radius: 20px;
-    box-shadow: 15px 15px 10px gray;
+    box-shadow: 15px 15px 10px #999999;
     margin-right: 50px;
     margin-top: 10px;
 
@@ -134,7 +142,7 @@ span {
 
 .whome-to-image {
     border-radius: 20px;
-    box-shadow: -15px -15px 10px gray;
+    box-shadow: -15px -15px 10px #999999;
 
 }
 
@@ -143,7 +151,7 @@ span {
     height: 400px;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: -15px -15px 10px gray;
+    box-shadow: -15px -15px 10px #999999;
 
 }
 
@@ -177,12 +185,12 @@ span {
     border: 2px solid black;
     border-radius: 15px;
     background-color: transparent;
-    background-image: linear-gradient(white, gray);
+    background-image: linear-gradient(white, #999999);
 }
 
 .btn3:hover {
 
-    background-image: linear-gradient(gray, white);
+    background-image: linear-gradient(#999999, white);
 
 }
 
@@ -208,7 +216,7 @@ span {
     line-height: 100%;
     height: 200px;
     width: 300px;
-    background-color: rgba(238, 184, 178, 0.5);
+    background-color: rgba(238, 184, 178, 0.8);
     padding: 20px;
     border-radius: 10px;
 }
@@ -225,7 +233,7 @@ span {
     width: 250px;
     border-radius: 15px;
     margin: 30px;
-    box-shadow: 15px 15px 10px gray;
+    box-shadow: 15px 15px 10px #999999;
 }
 
 .extended {
@@ -245,7 +253,7 @@ span {
     background-color: rgba(238, 184, 178, 0.5);
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 15px 15px 10px gray;
+    box-shadow: 15px 15px 10px #999999;
 }
 
 .ex-article {
@@ -308,4 +316,8 @@ h2 {
 
 .C:hover {
     color: rgb(226, 73, 73);
+}
+
+.form h2 {
+    text-shadow: 1px 1px rgb(5, 3, 3);
 }
